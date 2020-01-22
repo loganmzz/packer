@@ -119,10 +119,10 @@ than the following two packages, you're encouraged to use whatever packages you
 want. Because plugins are their own processes, there is no danger of colliding
 dependencies.
 
--   `github.com/hashicorp/packer` - Contains all the interfaces that you have
+-   [`github.com/hashicorp/packer`](https://github.com/hashicorp/packer/tree/master/packer) - Contains all the interfaces that you have
     to implement for any given plugin.
 
--   `github.com/hashicorp/packer/packer/plugin` - Contains the code to serve
+-   [`github.com/hashicorp/packer/packer/plugin`](https://github.com/hashicorp/packer/tree/master/packer/plugin) - Contains the code to serve
     the plugin. This handles all the inter-process communication stuff.
 
 There are two steps involved in creating a plugin:
